@@ -1,1243 +1,567 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1593B4EEB0FE4F10A590DC0A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B77057467E44C95B52FD752</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>18401B4828D1493C8F307E40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAB69E04F4F54F1987BB342B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>193BADD1F00647AE95B4C93A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B77057467E44C95B52FD752</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1CC28193991C4BD48284B105</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>327AC411197E771800FC9FC5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>327AC423197E771800FC9FC5</string>
-				<string>327AC442197E771800FC9FC5</string>
-				<string>327AC41C197E771800FC9FC5</string>
-				<string>327AC41B197E771800FC9FC5</string>
-				<string>D0350FD196AC4E6097B23EAB</string>
-				<string>C3B04587FBC04AA8B634FA6B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC412197E771800FC9FC5</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>HS</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>muzzley</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>327AC419197E771800FC9FC5</key>
-					<dict>
-						<key>DevelopmentTeam</key>
-						<string>7449HV5K3Y</string>
-					</dict>
-					<key>327AC43A197E771800FC9FC5</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>327AC419197E771800FC9FC5</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>327AC415197E771800FC9FC5</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>327AC411197E771800FC9FC5</string>
-			<key>productRefGroup</key>
-			<string>327AC41B197E771800FC9FC5</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>327AC419197E771800FC9FC5</string>
-				<string>327AC43A197E771800FC9FC5</string>
-			</array>
-		</dict>
-		<key>327AC415197E771800FC9FC5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>327AC44A197E771800FC9FC5</string>
-				<string>327AC44B197E771800FC9FC5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>327AC416197E771800FC9FC5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>327AC434197E771800FC9FC5</string>
-				<string>327AC42A197E771800FC9FC5</string>
-				<string>327AC42E197E771800FC9FC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>327AC417197E771800FC9FC5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>327AC420197E771800FC9FC5</string>
-				<string>327AC422197E771800FC9FC5</string>
-				<string>327AC41E197E771800FC9FC5</string>
-				<string>193BADD1F00647AE95B4C93A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>327AC418197E771800FC9FC5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>327AC436197E771800FC9FC5</string>
-				<string>327AC428197E771800FC9FC5</string>
-				<string>327AC431197E771800FC9FC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>327AC419197E771800FC9FC5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>327AC44C197E771800FC9FC5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8D9D4393993F442EAC8BB433</string>
-				<string>327AC416197E771800FC9FC5</string>
-				<string>327AC417197E771800FC9FC5</string>
-				<string>327AC418197E771800FC9FC5</string>
-				<string>327AC452197E90D800FC9FC5</string>
-				<string>9AA43FCB38D944C48EB53D8A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>VIPER</string>
-			<key>productName</key>
-			<string>VIPER</string>
-			<key>productReference</key>
-			<string>327AC41A197E771800FC9FC5</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>327AC41A197E771800FC9FC5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>VIPER.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>327AC41B197E771800FC9FC5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>327AC41A197E771800FC9FC5</string>
-				<string>327AC43B197E771800FC9FC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC41C197E771800FC9FC5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>327AC41D197E771800FC9FC5</string>
-				<string>327AC41F197E771800FC9FC5</string>
-				<string>327AC421197E771800FC9FC5</string>
-				<string>327AC43C197E771800FC9FC5</string>
-				<string>3B77057467E44C95B52FD752</string>
-				<string>FAB69E04F4F54F1987BB342B</string>
-				<string>96B9468861B2417BBF7F8644</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC41D197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>327AC41E197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC41D197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC41F197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>327AC420197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC41F197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC421197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>327AC422197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC421197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC423197E771800FC9FC5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>327AC42C197E771800FC9FC5</string>
-				<string>327AC42D197E771800FC9FC5</string>
-				<string>327AC42F197E771800FC9FC5</string>
-				<string>327AC432197E771800FC9FC5</string>
-				<string>327AC433197E771800FC9FC5</string>
-				<string>327AC435197E771800FC9FC5</string>
-				<string>327AC424197E771800FC9FC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>VIPER</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC424197E771800FC9FC5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>327AC425197E771800FC9FC5</string>
-				<string>327AC426197E771800FC9FC5</string>
-				<string>327AC429197E771800FC9FC5</string>
-				<string>327AC42B197E771800FC9FC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC425197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>VIPER-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC426197E771800FC9FC5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>327AC427197E771800FC9FC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC427197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC428197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC426197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC429197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC42A197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC429197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC42B197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>VIPER-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC42C197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HSAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC42D197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HSAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC42E197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC42D197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC42F197E771800FC9FC5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>327AC430197E771800FC9FC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC430197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC431197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC42F197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC432197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HSViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC433197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HSViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC434197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC433197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC435197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC436197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC435197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC437197E771800FC9FC5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>327AC449197E771800FC9FC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>327AC438197E771800FC9FC5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>327AC43D197E771800FC9FC5</string>
-				<string>327AC43F197E771800FC9FC5</string>
-				<string>327AC43E197E771800FC9FC5</string>
-				<string>1593B4EEB0FE4F10A590DC0A</string>
-				<string>18401B4828D1493C8F307E40</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>327AC439197E771800FC9FC5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>327AC447197E771800FC9FC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>327AC43A197E771800FC9FC5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>327AC44F197E771800FC9FC5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1CC28193991C4BD48284B105</string>
-				<string>327AC437197E771800FC9FC5</string>
-				<string>327AC438197E771800FC9FC5</string>
-				<string>327AC439197E771800FC9FC5</string>
-				<string>D30572DCFD544B7CB9B8CEB2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>327AC441197E771800FC9FC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>VIPERTests</string>
-			<key>productName</key>
-			<string>VIPERTests</string>
-			<key>productReference</key>
-			<string>327AC43B197E771800FC9FC5</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>327AC43B197E771800FC9FC5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>VIPERTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>327AC43C197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>327AC43D197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC43C197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC43E197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC41D197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC43F197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC421197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC440197E771800FC9FC5</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>327AC412197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>327AC419197E771800FC9FC5</string>
-			<key>remoteInfo</key>
-			<string>VIPER</string>
-		</dict>
-		<key>327AC441197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>327AC419197E771800FC9FC5</string>
-			<key>targetProxy</key>
-			<string>327AC440197E771800FC9FC5</string>
-		</dict>
-		<key>327AC442197E771800FC9FC5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>327AC448197E771800FC9FC5</string>
-				<string>327AC443197E771800FC9FC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>VIPERTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC443197E771800FC9FC5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>327AC444197E771800FC9FC5</string>
-				<string>327AC445197E771800FC9FC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC444197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>VIPERTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC445197E771800FC9FC5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>327AC446197E771800FC9FC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC446197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC447197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC445197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC448197E771800FC9FC5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>VIPERTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327AC449197E771800FC9FC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>327AC448197E771800FC9FC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327AC44A197E771800FC9FC5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_GENERATE_TEST_COVERAGE_FILES</key>
-				<string>YES</string>
-				<key>GCC_INSTRUMENT_PROGRAM_FLOW_ARCS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string>C05AE966-DF3F-4C4A-B5C1-527D4054549D</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>327AC44B197E771800FC9FC5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string>C05AE966-DF3F-4C4A-B5C1-527D4054549D</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>327AC44C197E771800FC9FC5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>327AC44D197E771800FC9FC5</string>
-				<string>327AC44E197E771800FC9FC5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>327AC44D197E771800FC9FC5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D0350FD196AC4E6097B23EAB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>VIPER/VIPER-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>VIPER/VIPER-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>327AC44E197E771800FC9FC5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D0350FD196AC4E6097B23EAB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>VIPER/VIPER-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>VIPER/VIPER-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>327AC44F197E771800FC9FC5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>327AC450197E771800FC9FC5</string>
-				<string>327AC451197E771800FC9FC5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>327AC450197E771800FC9FC5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C3B04587FBC04AA8B634FA6B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/VIPER.app/VIPER</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>VIPER/VIPER-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>VIPERTests/VIPERTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>327AC451197E771800FC9FC5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C3B04587FBC04AA8B634FA6B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/VIPER.app/VIPER</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>VIPER/VIPER-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>VIPERTests/VIPERTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>327AC452197E90D800FC9FC5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Run Script</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>XcodeCoverage/exportenv.sh</string>
-		</dict>
-		<key>3B77057467E44C95B52FD752</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8D9D4393993F442EAC8BB433</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>96B9468861B2417BBF7F8644</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-VIPER.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9AA43FCB38D944C48EB53D8A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>C3B04587FBC04AA8B634FA6B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-VIPERTests.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-VIPERTests.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D0350FD196AC4E6097B23EAB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D30572DCFD544B7CB9B8CEB2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-VIPERTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>FAB69E04F4F54F1987BB342B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-VIPERTests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>327AC412197E771800FC9FC5</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1593B4EEB0FE4F10A590DC0A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B77057467E44C95B52FD752 /* libPods.a */; };
+		18401B4828D1493C8F307E40 /* libPods-VIPERTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB69E04F4F54F1987BB342B /* libPods-VIPERTests.a */; };
+		193BADD1F00647AE95B4C93A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B77057467E44C95B52FD752 /* libPods.a */; };
+		327AC41E197E771800FC9FC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327AC41D197E771800FC9FC5 /* Foundation.framework */; };
+		327AC420197E771800FC9FC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327AC41F197E771800FC9FC5 /* CoreGraphics.framework */; };
+		327AC422197E771800FC9FC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327AC421197E771800FC9FC5 /* UIKit.framework */; };
+		327AC428197E771800FC9FC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 327AC426197E771800FC9FC5 /* InfoPlist.strings */; };
+		327AC42A197E771800FC9FC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 327AC429197E771800FC9FC5 /* main.m */; };
+		327AC42E197E771800FC9FC5 /* HSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 327AC42D197E771800FC9FC5 /* HSAppDelegate.m */; };
+		327AC436197E771800FC9FC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327AC435197E771800FC9FC5 /* Images.xcassets */; };
+		327AC43D197E771800FC9FC5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327AC43C197E771800FC9FC5 /* XCTest.framework */; };
+		327AC43E197E771800FC9FC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327AC41D197E771800FC9FC5 /* Foundation.framework */; };
+		327AC43F197E771800FC9FC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327AC421197E771800FC9FC5 /* UIKit.framework */; };
+		327AC447197E771800FC9FC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 327AC445197E771800FC9FC5 /* InfoPlist.strings */; };
+		327AC449197E771800FC9FC5 /* VIPERTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 327AC448197E771800FC9FC5 /* VIPERTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		327AC440197E771800FC9FC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327AC412197E771800FC9FC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 327AC419197E771800FC9FC5;
+			remoteInfo = VIPER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		327AC41A197E771800FC9FC5 /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		327AC41D197E771800FC9FC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		327AC41F197E771800FC9FC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		327AC421197E771800FC9FC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		327AC425197E771800FC9FC5 /* VIPER-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VIPER-Info.plist"; sourceTree = "<group>"; };
+		327AC427197E771800FC9FC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		327AC429197E771800FC9FC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		327AC42B197E771800FC9FC5 /* VIPER-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIPER-Prefix.pch"; sourceTree = "<group>"; };
+		327AC42C197E771800FC9FC5 /* HSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSAppDelegate.h; sourceTree = "<group>"; };
+		327AC42D197E771800FC9FC5 /* HSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSAppDelegate.m; sourceTree = "<group>"; };
+		327AC435197E771800FC9FC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		327AC43B197E771800FC9FC5 /* VIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		327AC43C197E771800FC9FC5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		327AC444197E771800FC9FC5 /* VIPERTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VIPERTests-Info.plist"; sourceTree = "<group>"; };
+		327AC446197E771800FC9FC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		327AC448197E771800FC9FC5 /* VIPERTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPERTests.m; sourceTree = "<group>"; };
+		3B77057467E44C95B52FD752 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B9468861B2417BBF7F8644 /* libPods-VIPER.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VIPER.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B04587FBC04AA8B634FA6B /* Pods-VIPERTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERTests.xcconfig"; path = "Pods/Pods-VIPERTests.xcconfig"; sourceTree = "<group>"; };
+		D0350FD196AC4E6097B23EAB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FAB69E04F4F54F1987BB342B /* libPods-VIPERTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VIPERTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		327AC417197E771800FC9FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327AC420197E771800FC9FC5 /* CoreGraphics.framework in Frameworks */,
+				327AC422197E771800FC9FC5 /* UIKit.framework in Frameworks */,
+				327AC41E197E771800FC9FC5 /* Foundation.framework in Frameworks */,
+				193BADD1F00647AE95B4C93A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327AC438197E771800FC9FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327AC43D197E771800FC9FC5 /* XCTest.framework in Frameworks */,
+				327AC43F197E771800FC9FC5 /* UIKit.framework in Frameworks */,
+				327AC43E197E771800FC9FC5 /* Foundation.framework in Frameworks */,
+				1593B4EEB0FE4F10A590DC0A /* libPods.a in Frameworks */,
+				18401B4828D1493C8F307E40 /* libPods-VIPERTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		327AC411197E771800FC9FC5 = {
+			isa = PBXGroup;
+			children = (
+				327AC423197E771800FC9FC5 /* VIPER */,
+				327AC442197E771800FC9FC5 /* VIPERTests */,
+				327AC41C197E771800FC9FC5 /* Frameworks */,
+				327AC41B197E771800FC9FC5 /* Products */,
+				D0350FD196AC4E6097B23EAB /* Pods.xcconfig */,
+				C3B04587FBC04AA8B634FA6B /* Pods-VIPERTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		327AC41B197E771800FC9FC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				327AC41A197E771800FC9FC5 /* VIPER.app */,
+				327AC43B197E771800FC9FC5 /* VIPERTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		327AC41C197E771800FC9FC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				327AC41D197E771800FC9FC5 /* Foundation.framework */,
+				327AC41F197E771800FC9FC5 /* CoreGraphics.framework */,
+				327AC421197E771800FC9FC5 /* UIKit.framework */,
+				327AC43C197E771800FC9FC5 /* XCTest.framework */,
+				3B77057467E44C95B52FD752 /* libPods.a */,
+				FAB69E04F4F54F1987BB342B /* libPods-VIPERTests.a */,
+				96B9468861B2417BBF7F8644 /* libPods-VIPER.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		327AC423197E771800FC9FC5 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				327AC42C197E771800FC9FC5 /* HSAppDelegate.h */,
+				327AC42D197E771800FC9FC5 /* HSAppDelegate.m */,
+				327AC435197E771800FC9FC5 /* Images.xcassets */,
+				327AC424197E771800FC9FC5 /* Supporting Files */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		327AC424197E771800FC9FC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				327AC425197E771800FC9FC5 /* VIPER-Info.plist */,
+				327AC426197E771800FC9FC5 /* InfoPlist.strings */,
+				327AC429197E771800FC9FC5 /* main.m */,
+				327AC42B197E771800FC9FC5 /* VIPER-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		327AC442197E771800FC9FC5 /* VIPERTests */ = {
+			isa = PBXGroup;
+			children = (
+				327AC448197E771800FC9FC5 /* VIPERTests.m */,
+				327AC443197E771800FC9FC5 /* Supporting Files */,
+			);
+			path = VIPERTests;
+			sourceTree = "<group>";
+		};
+		327AC443197E771800FC9FC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				327AC444197E771800FC9FC5 /* VIPERTests-Info.plist */,
+				327AC445197E771800FC9FC5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		327AC419197E771800FC9FC5 /* VIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327AC44C197E771800FC9FC5 /* Build configuration list for PBXNativeTarget "VIPER" */;
+			buildPhases = (
+				8D9D4393993F442EAC8BB433 /* Check Pods Manifest.lock */,
+				327AC416197E771800FC9FC5 /* Sources */,
+				327AC417197E771800FC9FC5 /* Frameworks */,
+				327AC418197E771800FC9FC5 /* Resources */,
+				327AC452197E90D800FC9FC5 /* Run Script */,
+				9AA43FCB38D944C48EB53D8A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIPER;
+			productName = VIPER;
+			productReference = 327AC41A197E771800FC9FC5 /* VIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		327AC43A197E771800FC9FC5 /* VIPERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327AC44F197E771800FC9FC5 /* Build configuration list for PBXNativeTarget "VIPERTests" */;
+			buildPhases = (
+				1CC28193991C4BD48284B105 /* Check Pods Manifest.lock */,
+				327AC437197E771800FC9FC5 /* Sources */,
+				327AC438197E771800FC9FC5 /* Frameworks */,
+				327AC439197E771800FC9FC5 /* Resources */,
+				D30572DCFD544B7CB9B8CEB2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				327AC441197E771800FC9FC5 /* PBXTargetDependency */,
+			);
+			name = VIPERTests;
+			productName = VIPERTests;
+			productReference = 327AC43B197E771800FC9FC5 /* VIPERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		327AC412197E771800FC9FC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = muzzley;
+				TargetAttributes = {
+					327AC419197E771800FC9FC5 = {
+						DevelopmentTeam = 7449HV5K3Y;
+					};
+					327AC43A197E771800FC9FC5 = {
+						TestTargetID = 327AC419197E771800FC9FC5;
+					};
+				};
+			};
+			buildConfigurationList = 327AC415197E771800FC9FC5 /* Build configuration list for PBXProject "VIPER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 327AC411197E771800FC9FC5;
+			productRefGroup = 327AC41B197E771800FC9FC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				327AC419197E771800FC9FC5 /* VIPER */,
+				327AC43A197E771800FC9FC5 /* VIPERTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		327AC418197E771800FC9FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327AC436197E771800FC9FC5 /* Images.xcassets in Resources */,
+				327AC428197E771800FC9FC5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327AC439197E771800FC9FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327AC447197E771800FC9FC5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CC28193991C4BD48284B105 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		327AC452197E90D800FC9FC5 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = XcodeCoverage/exportenv.sh;
+		};
+		8D9D4393993F442EAC8BB433 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA43FCB38D944C48EB53D8A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D30572DCFD544B7CB9B8CEB2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-VIPERTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		327AC416197E771800FC9FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327AC42A197E771800FC9FC5 /* main.m in Sources */,
+				327AC42E197E771800FC9FC5 /* HSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327AC437197E771800FC9FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327AC449197E771800FC9FC5 /* VIPERTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		327AC441197E771800FC9FC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 327AC419197E771800FC9FC5 /* VIPER */;
+			targetProxy = 327AC440197E771800FC9FC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		327AC426197E771800FC9FC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				327AC427197E771800FC9FC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		327AC445197E771800FC9FC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				327AC446197E771800FC9FC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		327AC44A197E771800FC9FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "C05AE966-DF3F-4C4A-B5C1-527D4054549D";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		327AC44B197E771800FC9FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "C05AE966-DF3F-4C4A-B5C1-527D4054549D";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		327AC44D197E771800FC9FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0350FD196AC4E6097B23EAB /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIPER/VIPER-Prefix.pch";
+				INFOPLIST_FILE = "VIPER/VIPER-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		327AC44E197E771800FC9FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0350FD196AC4E6097B23EAB /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIPER/VIPER-Prefix.pch";
+				INFOPLIST_FILE = "VIPER/VIPER-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		327AC450197E771800FC9FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B04587FBC04AA8B634FA6B /* Pods-VIPERTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VIPER.app/VIPER";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIPER/VIPER-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VIPERTests/VIPERTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		327AC451197E771800FC9FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B04587FBC04AA8B634FA6B /* Pods-VIPERTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VIPER.app/VIPER";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIPER/VIPER-Prefix.pch";
+				INFOPLIST_FILE = "VIPERTests/VIPERTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		327AC415197E771800FC9FC5 /* Build configuration list for PBXProject "VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327AC44A197E771800FC9FC5 /* Debug */,
+				327AC44B197E771800FC9FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327AC44C197E771800FC9FC5 /* Build configuration list for PBXNativeTarget "VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327AC44D197E771800FC9FC5 /* Debug */,
+				327AC44E197E771800FC9FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327AC44F197E771800FC9FC5 /* Build configuration list for PBXNativeTarget "VIPERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327AC450197E771800FC9FC5 /* Debug */,
+				327AC451197E771800FC9FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 327AC412197E771800FC9FC5 /* Project object */;
+}
