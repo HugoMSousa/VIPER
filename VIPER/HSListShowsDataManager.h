@@ -19,30 +19,24 @@
 //  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 //  DEALINGS IN THE SOFTWARE.
 //
-//  VIPERTests.m
-//  VIPERTests
+//  HSListShowsDataManager.h
+//  VIPER
 //
-//  Created by Hugo Sousa on 22/7/14.
+//  Created by Hugo Sousa on 26/7/14.
 //
 
-#import <XCTest/XCTest.h>
+@class HSTraktWebService;
+@class HSCoreDataStore;
 
-@interface VIPERTests : XCTestCase
+typedef void (^FindTVShowEpisodesCompletionHandler)(NSArray *shows, NSError *error);
 
-@end
+@interface HSListShowsDataManager : NSObject
 
-@implementation VIPERTests
+- (instancetype)initWithDataStore:(HSCoreDataStore *)dataStore
+                  traktWebService:(HSTraktWebService *)traktWebService;
 
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
+- (void)findTVShowEpisodesWithStartDate:(NSDate *)startDate
+                           numberOfDays:(NSNumber *)numberOfDays
+                      completionHandler:(FindTVShowEpisodesCompletionHandler)completionHandler;
 
 @end

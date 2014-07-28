@@ -19,30 +19,26 @@
 //  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 //  DEALINGS IN THE SOFTWARE.
 //
-//  VIPERTests.m
-//  VIPERTests
+//  HSListShowsInteractorIO.h
+//  VIPER
 //
-//  Created by Hugo Sousa on 22/7/14.
+//  Created by Hugo Sousa on 26/7/14.
 //
 
-#import <XCTest/XCTest.h>
+@protocol HSListShowsInteractorInput <NSObject>
 
-@interface VIPERTests : XCTestCase
+- (void)requestCurrentWeekTVShowEpisodes;
+- (void)requestNextWeekTVShowEpisodes;
+- (void)requestPreviousWeekTVShowEpisodes;
 
 @end
 
-@implementation VIPERTests
+@protocol HSListShowsInteractorOutput <NSObject>
 
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
+- (void)requestedCurrentWeekTVShowEpisodes:(NSArray *)weekSchedule;
+- (void)requestedNextWeekTVShowEpisodes:(NSArray *)weekSchedule;
+- (void)requestedPreviousWeekTVShowEpisodes:(NSArray *)weekSchedule;
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
+- (void)requestFailedWithError:(NSError *)error;
 
 @end
