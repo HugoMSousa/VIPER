@@ -19,30 +19,19 @@
 //  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 //  DEALINGS IN THE SOFTWARE.
 //
-//  VIPERTests.m
-//  VIPERTests
+//  HSTestAppDelegate.m
+//  VIPER
 //
-//  Created by Hugo Sousa on 22/7/14.
+//  Created by Hugo Sousa on 24/7/14.
 //
 
-#import <XCTest/XCTest.h>
+#import "HSTestAppDelegate.h"
 
-@interface VIPERTests : XCTestCase
+@implementation HSTestAppDelegate
 
-@end
-
-@implementation VIPERTests
-
-- (void)setUp
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+    return YES;
 }
 
 @end
