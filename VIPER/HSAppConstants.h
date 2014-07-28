@@ -19,30 +19,20 @@
 //  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 //  DEALINGS IN THE SOFTWARE.
 //
-//  VIPERTests.m
-//  VIPERTests
+//  HSAppConstants.h
+//  VIPER
 //
 //  Created by Hugo Sousa on 22/7/14.
 //
 
-#import <XCTest/XCTest.h>
+// ---- TRAKT API Constants ------------------------------------------
+extern NSString * const TRAKT_API_KEY;
+extern NSString * const TRAKT_BASE_URL_STRING;
+extern NSString * const TRAKT_USERNAME;
 
-@interface VIPERTests : XCTestCase
 
-@end
+// ---- Screen Names -------------------------------------------------
+extern NSString * const SCREEN_LIST_SHOWS;
 
-@implementation VIPERTests
-
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-@end
+// ---- Custom Table View Cell Identifiers ---------------------------
+extern NSString *const CELL_ID_TVSHOW_EPISODES;
