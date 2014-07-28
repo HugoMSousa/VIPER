@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Genre" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TVShow" syncable="YES">
+        <attribute name="airDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="certification" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="episodeFirstAired" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="episodeNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="episodeSeason" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="episodeTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstAired" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="genres" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imdbId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="networkName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="overview" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="posterImageSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TVShow" positionX="-225" positionY="38" width="128" height="283"/>
+        <element name="Genre" positionX="-54" positionY="36" width="128" height="60"/>
+    </elements>
+</model>

@@ -13,6 +13,13 @@
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([HSAppDelegate class]));
+        BOOL runningTests = NSClassFromString(@"XCTestCase") != nil;
+        if(!runningTests) {
+            return UIApplicationMain(argc, argv, nil, NSStringFromClass([HSAppDelegate class]));
+        }
+        else {
+            return UIApplicationMain(argc, argv, nil, @"HSTestAppDelegate");
+        }
+        
     }
 }
